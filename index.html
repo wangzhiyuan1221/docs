@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <title>andy.wang</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      // docsify config
+	  // config nav, default _navbar.md
+	  loadNavbar: true,
+	  // config sidebar, default _sidebar.md
+	  loadSidebar: true,
+	  subMaxLevel: 3,
+	  // config cover page
+	  coverpage: true,
+	  name: '<span>爱折腾的小白 <small style="font-size: 1rem;">Andy</small></span>',
+	  nameLink: '/',
+	  auto2top: true,
+	  repo: 'https://github.com/wangzhiyuan1221/',
+	  // config 404 page
+	  notFoundPage: true,
+	  
+      // search配置参数
+      search: {
+	    maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        depth: 3
+	  },
+	  
+	  // 字数统计
+	  count: {
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+	  
+    }
+	
+	// 使用离线功能
+	if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-powershell.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+</body>
+</html>
+
