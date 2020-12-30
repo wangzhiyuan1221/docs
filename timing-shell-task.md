@@ -1,6 +1,6 @@
-# 定时 shell 脚本
+## 定时 shell 脚本
 
-## 备份 Mysql 
+### 备份 Mysql 
 
 > 简介：通过shell脚本定时备份数据库表
 > 
@@ -44,7 +44,7 @@ day=`date -d "$days days ago" +%Y%m%d`
 rm -rf $day
 ```
 
-## 删除 Mysql 数据
+### 删除 Mysql 数据
 
 > 定时删除日志、冗余 mysql 表数据
 > 
@@ -65,7 +65,7 @@ mysql -h${host} -u${user} -p${password} -e "DELETE FROM chronos.t_execution_log 
 mysql -h${host} -u${user} -p${password} -e "DELETE FROM chronos.t_scheduler WHERE DATE_SUB(CURDATE(), INTERVAL 30 DAY) > DATE(create_time)"		
 ```
 
-## 删除 Linux 日志文件
+### 删除 Linux 日志文件
 
 > 定时删除 Linux 中的 
 >
