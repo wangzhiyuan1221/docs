@@ -10,7 +10,7 @@ test2...
 
 缓存时间为1天
 
-<img src="_media/icon.svg" style="width:100px;;" />
+<img src="_media/icon.svg" style="width:100px;" />
 
 图片放大
 
