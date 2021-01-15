@@ -6,7 +6,7 @@
 
 <div style="text-align: center;">
 
-![token生成策略](_media/bury-get-id_token.png)
+![token生成策略](https://wangzhiyuan1221.gitee.io/static/image/bury-get-id_token.png)
 
 </div>
 
@@ -22,11 +22,11 @@
 
 <div style="text-align: center;">
 
-![id生成获取](_media/bury-get-id_oaid.jpg)
+![id生成获取](https://wangzhiyuan1221.gitee.io/static/image/bury-get-id_oaid.jpg)
 
-![四种id的区别](_media/bury-get-id_oaid1.png)
+![四种id的区别](https://wangzhiyuan1221.gitee.io/static/image/bury-get-id_oaid1.png)
 
-![id获取的代码](_media/bury-get-id_oaid2.png)
+![id获取的代码](https://wangzhiyuan1221.gitee.io/static/image/bury-get-id_oaid2.png)
 
 </div>
 
