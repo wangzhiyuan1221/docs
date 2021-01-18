@@ -2,7 +2,7 @@
 
 ## Centos安装
 
-### 安装命令 Centos
+### 安装命令
 - yum install -y git
 
 ### 配置用户名称
