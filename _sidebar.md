@@ -1,10 +1,11 @@
-* Test
-  - [Test1](test/test1.md)
-  - [Test2](test/test2.md)
-* 文章
-  - [定时 shell 脚本](timing-shell-task.md)
-  - [工具 & 图书](tools-and-books.md)
-  - [埋点id标识定义与获取](bury-get-id.md)
-  - [Git 笔记](git-note.md)
-  - [知乎客户端埋点流程、模型和平台技术](bury-tech-zhihu.md)
-
+* 埋点 (2)
+  - [埋点id标识定义与获取](bury/bury-get-id.md)
+  - [知乎客户端埋点流程、模型和平台技术](bury/bury-tech-zhihu.md)
+* Linux (1)
+  - [定时 shell 脚本](linux/timing-shell-task.md)
+* Python (2)
+  - [Python 的 requests 和 mysql 的使用](python/python-requests-mysql.md)
+  - [Python 的 requests 使用 - GetImage](python/python-requests-get-image.md)
+* 工具 (2)
+  - [工具 & 图书](tools/tools-and-books.md)
+  - [Git 笔记](tools/git-note.md)
