@@ -6,7 +6,7 @@
 > 
 > backup4MysqlTable.sh
 
-``` shell
+```shell
 #!/bin/bash
 
 #设置mysql备份目录
@@ -50,7 +50,7 @@ rm -rf $day
 > 
 > clear4MysqlData.sh
 
-``` shell
+```shell
 #!/bin/bash
 
 #数据库服务 ip
@@ -71,7 +71,7 @@ mysql -h${host} -u${user} -p${password} -e "DELETE FROM chronos.t_scheduler WHER
 >
 > clear4ChronosExecsFiles.sh
 
-``` shell
+```shell
 #/bin/bash
 
 # 删除修改时间为三天前的文件

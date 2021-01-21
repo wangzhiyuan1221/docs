@@ -4,7 +4,7 @@
 
 #### 安装模块
 
-```
+```shell
 pip install requests
 python -m pip install requests
 ```
@@ -87,7 +87,7 @@ print(r.text)
 
 #### 安装模块
 
-```
+```shell
 pip install mysql-connector
 python -m pip install mysql-connector
 ```
