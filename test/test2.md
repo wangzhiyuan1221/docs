@@ -18,6 +18,8 @@ test2...
 
 !> 一段重要的内容， 可以和其他 **MarkDown** 语法混用。
 
+<p class='tip'>一段重要的内容， 可以和其他 <strong>MarkDown</strong> 语法混用。</p>
+
 > _TODO_ 完善示例
 
 ?> _TODO_ 完善示例
