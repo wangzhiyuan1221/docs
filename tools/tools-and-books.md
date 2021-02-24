@@ -10,6 +10,12 @@
 - [Snipaste](http://www.wzy1221.top/file/Snipaste-2.2.1-Beta2-x64.zip)
 - [typora](http://www.wzy1221.top/file/typora-setup-x64.exe)
 - [WGestures](http://www.wzy1221.top/file/WGestures1.8.4.0.zip)
+- 微信封面图片网站 https://www.canva.cn/
+- 代码生成图片工具 https://carbon.now.sh/
+- Gif生成工具 https://gif.ski/
+- 图片管理 [PicGo](https://github.com/Molunerfinn/PicGo/releases)
+- 录制Git [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
+- 绘图 [draw.io](https://github.com/jgraph/drawio/releases)
 
 ### 图书
 
