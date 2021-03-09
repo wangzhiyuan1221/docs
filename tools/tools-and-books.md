@@ -16,6 +16,12 @@
 - 图片管理 [PicGo](https://github.com/Molunerfinn/PicGo/releases)
 - 录制Git [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
 - 绘图 [draw.io](https://github.com/jgraph/drawio/releases)
+- Java 前端代码生成器 [magicalcoder](http://bbs.magicalcoder.com/)
+- [菜鸟工具](https://c.runoob.com/)
+- [在线工具](https://tool.lu/)
+- [在线正则表达式](http://tool.chinaz.com/tools/regexgenerate)
+- [文图](https://www.wentu.io/)
+- [在线比对](https://www.diffchecker.com/)
 
 ### 图书
 
