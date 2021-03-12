@@ -1,6 +1,7 @@
-* 埋点 (2)
+* 埋点 (3)
   - [埋点id标识定义与获取](bury/bury-get-id.md)
   - [知乎客户端埋点流程、模型和平台技术](bury/bury-tech-zhihu.md)
+  - [神策弹窗功能集成](bury/shence-popup.md)
 * Linux (1)
   - [定时 shell 脚本](linux/timing-shell-task.md)
 * Python (2)
