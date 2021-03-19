@@ -18,3 +18,4 @@
   - [OLAP之ClickHouse简介](bigdata/clickhouse-note.md)
 * SQL (1)
   - [必须了解的十个高级 SQL 概念](sql/ten-advanced-sql-concepts.md)
+  - [MySQL8.0新特性CTE(Common Table Expression)](sql/common-table-expression.md)
