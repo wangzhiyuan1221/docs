@@ -19,3 +19,4 @@
 * SQL (1)
   - [必须了解的十个高级 SQL 概念](sql/ten-advanced-sql-concepts.md)
   - [MySQL8.0新特性CTE(Common Table Expression)](sql/common-table-expression.md)
+  - [对比rank, dense_rank, row_number](sql/rank-vs-dense_rank-vs-row_number.md)
