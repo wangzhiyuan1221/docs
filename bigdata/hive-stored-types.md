@@ -122,7 +122,6 @@ load data local inpath '/opt/module/datas/log.data' into table log_text ;
 -- 这个过程不会走 MapReduce，而是直接将文件上传到了HDFS，在 HDFS 上文件的名字还叫 log.data
 hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_text;
 18.1 M  /user/hive/warehouse/db_hive.db/log_text/log.data
-
 ```
 
 ### 4.2 ORC
@@ -148,7 +147,6 @@ insert into table log_orc select * from log_text ;
 -- ORC 默认使用的压缩方式是 zlib 因此会更加节省空间，HDFS 上是新的文件名
 hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_orc;
 2.8 M  /user/hive/warehouse/db_hive.db/log_orc/000000_0
-
 ```
 
 ### 4.3 PARQUET
@@ -173,11 +171,10 @@ insert into table log_parquet select * from log_text ;
 -- HDFS 上是新的文件名
 hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_parquet;
 13.1 M  /user/hive/warehouse/db_hive.db/log_parquet/000000_0
-
 ```
 
-**存储文件的压缩比总结：</br>
-ORC > PARQUET > TEXTFILE **
+**存储文件的压缩比总结：**</br>
+**ORC > PARQUET > TEXTFILE **
 
 ```sql
 select count(*) from log_text; 
@@ -210,7 +207,6 @@ stored as orc tblproperties ("orc.compress"="NONE") ;
 
 -- 插入数据
 hive (db_hive)> insert into table log_orc_none select * from log_text ;
-
 ```
 
 ### 5.2 创建一个SNAPPY压缩的ORC存储方式
@@ -230,7 +226,6 @@ stored as orc tblproperties ("orc.compress"="SNAPPY") ;
 
 -- 插入数据
 hive (db_hive)> insert into table log_orc_snappy select * from log_text ;
-
 ```
 
 ### 5.3 创建一个默认压缩的ORC存储方式
@@ -250,7 +245,6 @@ stored as orc ;
 
 -- 插入数据
 hive (db_hive)> insert into table log_orc select * from log_text ;
-
 ```
 
 对比三者的压缩比：
@@ -264,7 +258,6 @@ hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_orc_snappy;
  
 hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_orc;
 2.8 M  /user/hive/warehouse/db_hive.db/log_orc/000000_0
-
 ```
 
 **总结：**

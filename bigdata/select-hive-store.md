@@ -94,7 +94,6 @@ update student_txn set name= 'student 1zh' where id='1001';
 
 -- (5)查看表的数据,最终会发现 id 为1001被改为 sutdent_1zh
 select id, name from student_txn where id = 1001; 
-
 ```
 
 #### 1.2 关于ORC的Hive配置
