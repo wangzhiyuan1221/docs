@@ -173,8 +173,8 @@ hive (db_hive)> dfs -du -h /user/hive/warehouse/db_hive.db/log_parquet;
 13.1 M  /user/hive/warehouse/db_hive.db/log_parquet/000000_0
 ```
 
-**存储文件的压缩比总结：**</br>
-**ORC > PARQUET > TEXTFILE **
+**存储文件的压缩比总结：**
+> ORC  > PARQUET  > TEXTFILE 
 
 ```sql
 select count(*) from log_text; 
