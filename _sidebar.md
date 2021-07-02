@@ -8,9 +8,12 @@
 * Python (2)
   - [Python 的 requests 和 mysql 的使用](python/python-requests-mysql.md)
   - [Python 的 requests 使用 - GetImage](python/python-requests-get-image.md)
-* 工具 (4)
+* SpringBoot
+  - [SpringBoot 处理跨域问题](springboot/springboot-deal-cross-domain.md)
+* 工具 (5)
   - [工具 & 图书](tools/tools-and-books.md)
   - [Git 笔记](tools/git-note.md)
+  - [Git 使用笔记](tools/git-use-note.md)
   - [使用谷歌搜索小技巧](tools/tool-use-google.md)
   - [技术文章收藏](tools/article-collection.md)
 * Vue (2)
