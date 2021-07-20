@@ -147,7 +147,7 @@ cursor.execute(sql)
 resultStr = "date: {date}, item: {item}, num: {num}, money: {money}"
 result = ""
 for (date, item, num, money) in cursor:
-    result = resultStr.format(date=date, item=item, num=num, money=money)
+    result += resultStr.format(date=date, item=item, num=num, money=money)
 cursor.close()
 conn.close()
 markdown = {
