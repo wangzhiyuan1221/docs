@@ -1,3 +1,5 @@
+* 随记 (1)
+  - [准备看的书](note/unread-books.md)
 * 埋点 (4)
   - [埋点id标识定义与获取](bury/bury-get-id.md)
   - [知乎客户端埋点流程、模型和平台技术](bury/bury-tech-zhihu.md)
