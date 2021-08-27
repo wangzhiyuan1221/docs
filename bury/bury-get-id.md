@@ -4,11 +4,7 @@
 
 #### Android
 
-<div style="text-align: center;">
-
 ![token](https://wangzhiyuan1221.gitee.io/static/image/202101/bury-get-id_token.png)
-
-</div>
 
 #### iOS
 
@@ -20,13 +16,8 @@
 
 　　主要涉及到四种设备标识符：设备唯一标识符（UDID）、匿名设备标识符（OAID）、开发者匿名设备标识符（VAID）和应用匿名设备标识符（AAID）。其中匿名设备标识符（OAID）将彻底取代手机IMEI码，第三方开发者将无法再获取用户手机IMEI码极大程度降低第三方应用通知栏PUSH及广告信息骚扰。小米OAID在设备首次启动时立即生成，用户可以自行开启、关闭和重置。
 
-<div style="text-align: center;">
-
 ![id生成获取](https://wangzhiyuan1221.gitee.io/static/image/202101/bury-get-id_oaid.jpg)
 
 ![四种id的区别](https://wangzhiyuan1221.gitee.io/static/image/202101/bury-get-id_oaid1.png)
 
 ![id获取的代码](https://wangzhiyuan1221.gitee.io/static/image/202101/bury-get-id_oaid2.png)
-
-</div>
-
