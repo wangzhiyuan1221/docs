@@ -1,6 +1,7 @@
 # Sublime Text快捷键大全
 
-> 来源：Lucida
+> 来源：Lucida 
+> 
 > [SublimeText快捷键大全(附GIF演示图)](https://www.xiazaiba.com/jiaocheng/4949.html)
 
 Sublime Text 是码农必备之神器，有助于码农快速开垦，如果掌握了 Sublime 强大的快捷键就可以飞起来了。下面下载吧小编汇总了 Sublime Text 支持的全部快捷键（适用 SublimeText2、SublimeText3 ），帮助大家起飞。
