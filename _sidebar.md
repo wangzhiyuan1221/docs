@@ -5,6 +5,8 @@
   - [知乎客户端埋点流程、模型和平台技术](bury/bury-tech-zhihu.md)
   - [神策弹窗功能集成](bury/shence-popup.md)
   - [埋点设计](bury/bury-design.md)
+* Kylin (1)
+  - [Kylin学习笔记](kylin/kylin-learn.md)
 * Linux (2)
   - [定时 shell 脚本](linux/timing-shell-task.md)
   - [记一次服务器被当成矿机挖矿，CPU一直99%不下](linux/server-becomes-miner.md)
