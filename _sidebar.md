@@ -7,6 +7,8 @@
   - [埋点设计](bury/bury-design.md)
 * Kylin (1)
   - [Kylin学习笔记](kylin/kylin-learn.md)
+* Mysql (1)
+  - [Mysql 规范](mysql/mysql-standard.md)
 * Linux (2)
   - [定时 shell 脚本](linux/timing-shell-task.md)
   - [记一次服务器被当成矿机挖矿，CPU一直99%不下](linux/server-becomes-miner.md)
