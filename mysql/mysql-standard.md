@@ -15,7 +15,7 @@
 3. 每个表最多只能有一个自增列
 4. 表中不允许创建 json/enum/set/bit 类型的列
 5. 不允许为列单独指定字符集信息
-6. 新建表必须存在 create_time 和 update_time 字段，保存记录创建时间和更新时间，类型为 timestamp
+6. 新建表必须存在 create_time 和 update_time 字段，保存记录创建时间和更新时间，类型为 datetime
 7. 每个列都必须标识清晰明确的注释信息
 
 ### 索引限制
@@ -29,8 +29,8 @@
 CREATE TABLE standard_example(
   `id` BIGINT(11) AUTO_INCREMENT COMMENT '主键',
   `content` VARCHAR(1024) NOT NULL DEFAULT '' COMMENT '附属信息',
-  `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
-  `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最近更新时间',
+  `create_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最近更新时间',
   PRIMARY KEY(`id`),
   KEY 'idx_create_time'(`create_time`),
   KEY 'idx_update_time'(`update_time`)
