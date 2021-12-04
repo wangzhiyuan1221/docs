@@ -57,8 +57,8 @@ c.forEach(System.out::println); // 1 2
 
 ``` java
 String[] a = new String[]{"1", "2"};
-        List<String> list = Arrays.asList(a);
-        list.add("3");
+List<String> list = Arrays.asList(a);
+list.add("3");
 
 Exception in thread "main" java.lang.UnsupportedOperationException
 	at java.util.AbstractList.add(AbstractList.java:148)
