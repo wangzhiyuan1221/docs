@@ -49,3 +49,15 @@ git checkout xxx1
 git merge xxx2
 ```
 
+### 5. 可视化工具
+
+#### GitKraken
+
+[GitKraken-6.5.0](https://release.axocdn.com/win64/GitKrakenSetup-6.5.0.exe) 
+
+[GitKraken-6.5.1](https://release.axocdn.com/win64/GitKrakenSetup-6.5.1.exe)
+
+[GitKraken安装与破解](https://www.cnblogs.com/chonglu/p/14956468.html)
+
+[GitKraken -- 超好用的 Git 可视化工具](https://zhuanlan.zhihu.com/p/98960725)
+
