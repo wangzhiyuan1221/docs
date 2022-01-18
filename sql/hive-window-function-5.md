@@ -293,3 +293,7 @@ NULL            NULL               7       0
 这种函数，需要结合实际场景和数据去使用和研究，只看说明的话，很难理解。
 
 官网的介绍： https://cwiki.apache.org/confluence/display/Hive/Enhanced+Aggregation%2C+Cube%2C+Grouping+and+Rollup
+
+**扩展阅读**
+
+[cube 和 rollup 函数](https://www.cnblogs.com/zzhangyuhang/p/9986506.html)

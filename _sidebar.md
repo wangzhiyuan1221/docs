@@ -9,6 +9,8 @@
   - [Kylin 学习笔记](kylin/kylin-learn.md)
   - [Kylin 使用笔记](kylin/kylin-use-note.md)
   - [Kylin 获取维度值](kylin/kylin-get-dim.md)
+* Flink (1)
+  - [Flink 学习笔记](flink/flink-learn.md)
 * Mysql (1)
   - [Mysql 规范](mysql/mysql-standard.md)
 * Linux (2)
