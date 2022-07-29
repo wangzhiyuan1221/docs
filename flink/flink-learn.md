@@ -72,7 +72,11 @@ vim /opt/test/flinkTestData.csv
 1001,kim,2
 1002,joy,1
 
+# Flink 1.13.0 及以上版本
 ./bin/sql-client.sh
+
+# Flink 1.13.0 以下版本，显示使用嵌入式模式
+./bin/sql-client.sh embedded
 ```
 
 ``` sql
@@ -98,8 +102,8 @@ create table department_counts(
    'table-name' = 'department_counts',
    'username' = 'user',
    'password' = 'pwd',
-   'sink.buffer-flush.max-rows' = '0',
-   'sink.buffer-flush.interval' = '3s',
+   'sink.buffer-flush.max-rows' = '1',
+   'sink.buffer-flush.interval' = '0s',
    'sink.max-retries' = '3'	
 );
 
