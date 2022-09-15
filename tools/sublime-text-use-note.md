@@ -14,9 +14,15 @@ Sublime Text 是码农必备之神器，有助于码农快速开垦，如果掌�
 
 Ctrl + Enter 在当前行下面新增一行然后跳至该行；Ctrl + Shift + Enter 在当前行上面增加一行并跳至该行。
 
+![01](https://pic.imgdb.cn/item/6323001216f2c2beb13070da.gif)
+
 Ctrl + ←/→进行逐词移动，相应的，Ctrl + Shift + ←/→进行逐词选择。
 
+![02](https://pic.imgdb.cn/item/6323001216f2c2beb1307123.gif)
+
 Ctrl + ↑/↓移动当前显示区域，Ctrl + Shift + ↑/↓移动当前行。
+
+![03](https://pic.imgdb.cn/item/6323001216f2c2beb1307174.gif)
 
 #### 选择（Selecting）
 
@@ -26,7 +32,11 @@ Ctrl + D 选择当前光标所在的词并高亮该词所有出现的位置，�
 
 多重选词的一大应用场景就是重命名——从而使得代码更加整洁。尽管 Sublime Text 无法像 IDE（例如 Eclipse ）那样进行自动重命名，但我们可以通过多重选词+多重编辑进行直观且便捷的重命名：
 
+![04](https://pic.imgdb.cn/item/6323001216f2c2beb130719e.gif)
+
 有时我们需要对一片区域的所有行进行同时编辑，Ctrl + Shift + L可以将当前选中区域打散，然后进行同时编辑：
+
+![05](https://pic.imgdb.cn/item/6323001216f2c2beb13071b6.gif)
 
 ### 二、查找&替换（Finding&Replacing）
 
@@ -36,11 +46,17 @@ Sublime Text 提供了强大的查找（和替换）功能，为了提供一个�
 
 多数情况下，我们需要查找文中某个关键字出现的其它位置，这时并不需要重新将该关键字重新输入一遍然后搜索，我们只需要使用 Shift + ←/→或 Ctrl + D 选中关键字，然后F3跳到其下一个出现位置，Shift + F3 跳到其上一个出现位置，此外还可以用 Alt + F3 选中其出现的所有位置（之后可以进行多重编辑，也就是快速替换）。
 
+![06](https://pic.imgdb.cn/item/6323002016f2c2beb1308b30.gif)
+
 #### 标准查找&替换
 
 另一种常见的使用场景是搜索某个已知但不在当前显示区域的关键字，这时可以使用 Ctrl + F 调出搜索框进行搜索：
 
+![07](https://pic.imgdb.cn/item/6323002016f2c2beb1308b41.jpg)
+
 以及使用Ctrl + H进行替换：
+
+![08](https://pic.imgdb.cn/item/6323002016f2c2beb1308b52.jpg)
 
 #### 关键字查找&替换
 
@@ -54,6 +70,8 @@ Sublime Text 的查找有不同的模式：Alt + C 切换大小写敏感（Case-
 
 这样之后在选中文本的状态下范围内搜索就会自动开启，配合这个功能，局部重命名（Local Renaming）变的非常方便：
 
+![09](https://pic.imgdb.cn/item/6323002016f2c2beb1308b7a.gif)
+
 使用 Ctrl + H 进行标准替换，输入替换内容后，使用 Ctrl + Shift + H 替换当前关键字，Ctrl + Alt + Enter 替换所有匹配关键字。
 
 #### 正则表达式查找&替换
@@ -63,6 +81,8 @@ Sublime Text 的查找有不同的模式：Alt + C 切换大小写敏感（Case-
 #### 多文件搜索&替换
 
 使用 Ctrl + Shift + F 开启多文件搜索&替换（注意此快捷键和搜狗输入法的简繁切换快捷键有冲突）：
+
+![10](https://pic.imgdb.cn/item/6323002016f2c2beb1308b84.jpg)
 
 多文件搜索 & 替换默认在当前打开的文件和文件夹进行搜索/替换，我们也可以指定文件/文件夹进行搜索/替换。
 
@@ -80,11 +100,17 @@ Ctrl + P 会列出当前打开的文件（或者是当前文件夹的文件）�
 
 尽管是一个文本编辑器，Sublime Text 能够对代码符号进行一定程度的索引。Ctrl + R 会列出当前文件中的符号（例如类名和函数名，但无法深入到变量名），输入符号名称 Enter 即可以跳转到该处。此外，还可以使用 F12 快速跳转到当前光标所在符号的定义处（Jump to Definition）。
 
+![11](https://pic.imgdb.cn/item/6323002616f2c2beb1309728.gif)
+
 比较有意思的是，对于 Markdown，Ctrl + R 会列出其大纲，非常实用。
+
+![12](https://pic.imgdb.cn/item/6323002616f2c2beb130973a.jpg)
 
 #### 跳转到某行
 
 Ctrl + G 然后输入行号以跳转到指定行：
+
+![13](https://pic.imgdb.cn/item/6323002616f2c2beb1309745.gif)
 
 #### 组合跳转
 
