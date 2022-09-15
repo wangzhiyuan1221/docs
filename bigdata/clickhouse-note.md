@@ -14,7 +14,7 @@
 
 实时OLAP：ClickHouse、Apache Doris
 
-![秒级实现架构图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210312172027.png)
+![秒级实现架构图](https://pic.imgdb.cn/item/6322ded016f2c2beb1f622b2.png)
 
 不管是面试还是实际工作过程中，数据工程师要时时刻刻面对这些层出不穷的技术演进。随着数据的爆发式增长以及指标维度多元化， T+1 的数据报表早已无法满足需求。如何在保证高时效性的同时，让数据发挥更大的价值是筛选“王牌”大数据开发工程师的重要门槛。
 

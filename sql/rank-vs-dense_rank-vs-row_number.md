@@ -17,7 +17,7 @@ letcode——185. 部门工资前三高的所有员工，经典TOPN问题！
 
 注意：如果出现并列第一的情况，则同为第一名。
 
-![原始表](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210319115457.png)
+![原始表](https://pic.imgdb.cn/item/6322df2016f2c2beb1f6b2b7.png)
 
 【解题思路】
 
@@ -39,7 +39,7 @@ from 班级
 
 得到结果：
 
-![结果1](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210319115700.png)
+![结果1](https://pic.imgdb.cn/item/6322df2016f2c2beb1f6b2d8.png)
 
 从上面的结果可以看出：
 
@@ -51,7 +51,7 @@ from 班级
 
 这三个函数的区别如下：
 
-![结果2](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210319115812.png)
+![结果2](https://pic.imgdb.cn/item/6322df2016f2c2beb1f6b2e8.png)
 
 题目要求“如果出现并列第一的情况，则同为第一名”。所以，我们使用窗口函数dense_rank。
 
@@ -65,7 +65,7 @@ from 成绩表
 
 运行结果如下：
 
-![结果3](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210319115931.png)
+![结果3](https://pic.imgdb.cn/item/6322df4f16f2c2beb1f6fcda.png)
 
 步骤二：筛选出前3高的成绩，所以我们在上一步基础上加入一个where字句来筛选出符合条件的数据。（where 排名 <= 3）
 
@@ -91,7 +91,7 @@ dense_rank,：相同分数，并列排名，按排名后补
 
 row_number：相同分数，不并列排名
 
-![结果4](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210319120158.png)
+![结果4](https://pic.imgdb.cn/item/6322df4f16f2c2beb1f6fce4.png)
 
 ### 3.2 窗口函数使用模板
 

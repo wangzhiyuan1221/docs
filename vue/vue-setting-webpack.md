@@ -30,7 +30,7 @@ module.exports = {
 
 然后在idea的settings中配置一下这个文件。
 
-![setting](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210326154536.png)
+![setting](https://pic.imgdb.cn/item/6322df4f16f2c2beb1f6fcf4.png)
 
 搜索webpack关键词，在Languages & Frameworks这一栏下面有个webpack，具体路径在File | Settings | Languages & Frameworks | JavaScript | Webpack
 

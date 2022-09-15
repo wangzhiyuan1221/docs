@@ -196,7 +196,7 @@ SELECT Name
 FROM student_grades
 ```
 
-![Rank vs Dense Rank vs Row Number](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210318201837.png)
+![Rank vs Dense Rank vs Row Number](https://pic.imgdb.cn/item/6322df1f16f2c2beb1f6b29e.png)
 
 ROW_NUMBER（）返回每行开始的唯一编号。当存在关系时（例如，BOB vs Carrie），ROW_NUMBER（）如果未定义第二条标准，则任意分配数字。
 
@@ -238,7 +238,7 @@ SELECT Month
 FROM monthly_revenue
 ```
 
-![计算运行总数](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210318202500.png)
+![计算运行总数](https://pic.imgdb.cn/item/6322df2016f2c2beb1f6b2ad.png)
 
 ## 10.日期时间操纵
 

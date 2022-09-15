@@ -79,4 +79,4 @@ jump_url        跳转地址
 
 ### 4. 神策自采集的埋点
 
-![埋点采集](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210312160036.png)
+![埋点采集](https://pic.imgdb.cn/item/6322ded016f2c2beb1f6228c.png)

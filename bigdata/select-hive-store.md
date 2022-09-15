@@ -20,11 +20,11 @@
 
 我们先从官网上拿到ORC的存储模型图
 
-![ORC存储模型图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428134523.png)
+![ORC存储模型图](https://pic.imgdb.cn/item/6322df4f16f2c2beb1f6fd09.png)
 
 看起来略微有点复杂，那我们稍微简化一下，我画了一个简单的图来说明一下
 
-![ORC 存储模型简化图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428134617.png)
+![ORC 存储模型简化图](https://pic.imgdb.cn/item/6322df4f16f2c2beb1f6fd29.png)
 
 左边的图就表示了传统的行式数据库存储方式，按行存储，如果没有存储索引的话，如果需要查询一个字段，就需要把整行的数据都查出来然后做筛选，这么做是比较消耗 IO 资源的，于是在 Hive 中最开始也是用了索引的方式来解决这个问题。
 
@@ -37,7 +37,7 @@
 
 了解了 ORC 存储的基本逻辑后，我们再来看看它的存储模型图。
 
-![ORC 存储模型图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428134846.png)
+![ORC 存储模型图](https://pic.imgdb.cn/item/6322df8c16f2c2beb1f76638.png)
 
 同时我也把详细的文字也附在下面，大家可以对照着看看：
 
@@ -128,11 +128,11 @@ select id, name from student_txn where id = 1001;
 
 再来看看 Parquet 的存储结构吧，先看官网给的
 
-![Parquet 存储结构图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428141306.png)
+![Parquet 存储结构图](https://pic.imgdb.cn/item/6322df8c16f2c2beb1f76641.png)
 
 嗯，略微有点头大，我画个简易版
 
-![Parquet 存储结构简易图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428141348.png)
+![Parquet 存储结构简易图](https://pic.imgdb.cn/item/6322df8c16f2c2beb1f76651.png)
 
 Parquet 文件是以二进制方式存储的，所以不可以直接读取，和 ORC 一样，文件的元数据和数据一起存储，所以 Parquet 格式文件是自解析的。
 
@@ -150,9 +150,9 @@ Parquet 文件是以二进制方式存储的，所以不可以直接读取，和
 
 #### 1.3 ORC 和 Parquet 对比
 
-![ORC 和 Parquet 对比图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428143628.png)
+![ORC 和 Parquet 对比图](https://pic.imgdb.cn/item/6322df8c16f2c2beb1f7665d.png)
 
-![文件大小对比图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428143710.png)
+![文件大小对比图](https://pic.imgdb.cn/item/6322df8c16f2c2beb1f7666d.png)
 
 同时，从《Hive性能调优实战》作者的案例中，2张分别采用 ORC 和 Parquet 存储格式的表，导入同样的数据，进行 sql 查询，**「发现使用 ORC 读取的行远小于Parquet」**，所以使用 ORC 作为存储，可以借助元数据过滤掉更多不需要的数据，查询时需要的集群资源比 Parquet 更少。（查看更详细的性能分析，请移步https://blog.csdn.net/yu616568/article/details/51188479）
 
@@ -160,7 +160,7 @@ Parquet 文件是以二进制方式存储的，所以不可以直接读取，和
 
 ## 二、压缩方式
 
-![压缩方式对比图](https://cdn.jsdelivr.net/gh/wangzhiyuan1221/blogger@main/static_files/img/20210428143934.png)
+![压缩方式对比图](https://pic.imgdb.cn/item/6322dfad16f2c2beb1f79a5e.png)
 
 ## 三、存储和压缩结合该如何选择?
 
