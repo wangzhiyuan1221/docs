@@ -40,7 +40,7 @@
   - [OLAP之ClickHouse简介](bigdata/clickhouse-note.md)
   - [Hive 文件存储格式 (建表 stored as 的五种类型)](bigdata/hive-stored-types.md)
   - [Hive数仓建表该选用ORC还是Parquet，压缩选LZO还是Snappy？](bigdata/select-hive-store.md)
-  - [开源大数据热力项目](bigdata/open_source_hot_project.md)
+  - [开源大数据热力项目](bigdata/open-source-hot-project.md)
 * SQL (8)
   - [必须了解的十个高级 SQL 概念](sql/ten-advanced-sql-concepts.md)
   - [MySQL8.0新特性CTE(Common Table Expression)](sql/common-table-expression.md)
