@@ -30,7 +30,7 @@
             "url": "http://肥猫.love",
             "name": "🚀肥猫线路"
         },
-		{
+	{
             "url": "http://xxxoo.shop/",
             "name": "🏡xxxoo线路"
         },
