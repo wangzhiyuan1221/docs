@@ -5,7 +5,7 @@
       , n = (null == t ? void 0 : t.dataset.endpoint) || (null != t && t.src.includes("/va/") ? "/va" : "/_vercel/insights");
     async function i({type: i, data: o, options: a}) {
         var r, l;
-        let c = location.href.replace('/#','')
+        let c = location.href
           , d = document.referrer
           , s = e({
             type: i,
