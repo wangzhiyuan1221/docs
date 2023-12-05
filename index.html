@@ -92,12 +92,11 @@
     //  navigator.serviceWorker.register('sw.js')
     }
     // 开启访问埋点收集
-    window.va = window.va || function () {
-      (window.vaq = window.vaq || []).push(arguments); 
-    };
+    window.va = window.va || function () {(window.vaq = window.vaq || []).push(arguments);};
     // 监听 href 变化
     window.addEventListener('hashchange', function() {
-      console.log('URL 发生变化：', window.location.href);
+      //console.log('URL 发生变化：', window.location.href);
+       window.va = window.va || function () {(window.vaq = window.vaq || []).push(arguments);};
     });
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
