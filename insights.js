@@ -74,7 +74,7 @@
         let t = e ? "string" == typeof e ? new URL(e,location.origin) : new URL(e.href) : null;
         !t || l(t) || Boolean(t.hash) && l(t) || o()
     }
-    let d = location.href
+    let d = location.href.replace('/#','')
       , s = ()=>{
         var t;
         window.va = function(t, n) {
@@ -100,12 +100,12 @@
         history.pushState = function(...t) {
             e(...t),
             c(t[2]),
-            d = location.href
+            d = location.href.replace('/#','')
         }
         ,
         window.addEventListener("popstate", function() {
-            c(location.href),
-            d = location.href
+            c(location.href.replace('/#','')),
+            d = location.href.replace('/#','')
         })
     }
     )()
