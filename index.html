@@ -95,6 +95,10 @@
     window.va = window.va || function () {
       (window.vaq = window.vaq || []).push(arguments); 
     };
+    // 监听 href 变化
+    window.addEventListener('hashchange', function() {
+      console.log('URL 发生变化：', window.location.href);
+    });
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
