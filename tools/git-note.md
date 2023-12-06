@@ -79,6 +79,6 @@ fatal: Could not read from remote repository.
 
 <div style="text-align: center;">
 
-![git 笔记](https://pic.imgdb.cn/item/6322decf16f2c2beb1f62264.png)
+![git 笔记](../_media/git-note.png)
 
 </div>
