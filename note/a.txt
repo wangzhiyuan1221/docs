@@ -43,7 +43,7 @@
             "name": "🚀TVBox线路"
         },  		
         {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+            "url": "https://www.wzy1221.top/note/FongMi-CatVodSpider-main-json-config.json",
             "name": "🚀蜂蜜线路"
         },                                                               
         {
@@ -51,7 +51,7 @@
             "name": "🚀道长线路"
         },
         {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+            "url": "https://www.wzy1221.top/note/gaotianliuyun-gao-master-XYQ.json",
             "name": "🚀香雅情线路"
         },  
         {
@@ -69,11 +69,7 @@
         {
             "url": "http://101.34.67.237/config/1",
             "name": "🚀小雅线路"
-        },   
-        {
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json",
-            "name": "🚀霜辉月明"
-        },
+        },  
         {
             "url": "https://xhdwc.tk/0",
             "name": "🚀dxawi0线路"
