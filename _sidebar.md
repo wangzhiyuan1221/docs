@@ -17,6 +17,7 @@
 * Mysql (2)
   - [Mysql 规范](mysql/mysql-standard.md)
   - [Mysql 获取表信息](mysql/get-table-info.md)
+  - [Mysql 字符集异常处理](mysql/mysql-character_exception.md)
 * Linux (2)
   - [定时 shell 脚本](linux/timing-shell-task.md)
   - [记一次服务器被当成矿机挖矿，CPU一直99%不下](linux/server-becomes-miner.md)
