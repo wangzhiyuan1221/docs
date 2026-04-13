@@ -6,6 +6,9 @@
 
 ```bash
 yum install -y git
+
+# macOS 安装
+brew install git
 ```
 
 ### 配置用户名称
